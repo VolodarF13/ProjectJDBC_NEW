@@ -15,7 +15,9 @@ dependencies {
     testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
     // Source: https://mvnrepository.com/artifact/com.h2database/h2
     testImplementation("com.h2database:h2:2.4.240")
+    implementation 'com.h2database:h2:2.4.240'
 }
+
 
 test {
     useJUnitPlatform()

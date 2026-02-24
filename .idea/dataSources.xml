@@ -4,8 +4,9 @@
     <data-source source="LOCAL" name="MegaSoft" uuid="b677d039-459e-45b7-8329-717503fb0996">
       <driver-ref>h2.unified</driver-ref>
       <synchronize>true</synchronize>
+      <configured-by-url>true</configured-by-url>
       <jdbc-driver>org.h2.Driver</jdbc-driver>
-      <jdbc-url>jdbc:h2:D:\Program\Intellij IDEA\Code\Pet\ProjectJDBC_NEW\MegaSoft</jdbc-url>
+      <jdbc-url>jdbc:h2:~/ProjectJDBC_NEW\MegaSoft</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
   </component>

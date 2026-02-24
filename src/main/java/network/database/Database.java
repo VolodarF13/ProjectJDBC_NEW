@@ -13,15 +13,12 @@ public class Database {
 
     public Database() {
         try {
-
-            Class.forName("org.h2.Driver");
-
-            String url = "jdbc:h2:D:\\Program\\Intellij IDEA\\Code\\Pet\\ProjectJDBC_NEW\\MegaSoft;AUTO_SERVER=TRUE";
+            String url = "jdbc:h2:~/ProjectJDBC_NEW\\MegaSoft.mv.db";
             String user = "admin";
             String password = "admin";
 
             connection = DriverManager.getConnection(url, user, password);
-        } catch (SQLException | ClassNotFoundException e) {
+        } catch (SQLException e) {
             System.err.println("Unable to establish connection to database." + e.getMessage());
         }
     }
