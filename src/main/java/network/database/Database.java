@@ -13,7 +13,7 @@ public class Database {
 
     public Database() {
         try {
-            String url = "jdbc:h2:~/ProjectJDBC_NEW\\MegaSoft.mv.db";
+            String url = "jdbc:h2:~/ProjectJDBC_NE/MegaSoft.mv.db";
             String user = "admin";
             String password = "admin";
 
